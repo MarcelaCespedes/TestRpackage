@@ -1,0 +1,10 @@
+Package: PersonBaseline
+Title: Create columns person, baseline, NumberReps
+Version: 0.1
+Authors@R: person("Marcela", "Cespedes", email = "Marcela.Cespedes@csiro.au", role = c("aut", "cre"))
+Description: Add colums to existing IDS data frame to numerically identify person, max(person) will return the maximum number of participants; baseline indicator variable (use baseline == 1 to subset baseline observations); and NumberReps shows the number of replicates or follow-up observations for each participant.
+Depends: R (>= 3.5.2)
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
